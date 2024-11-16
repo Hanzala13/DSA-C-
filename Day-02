@@ -1,2 +1,35 @@
 Day-02
- 
+
+# Write Your First Program in C++
+
+This repository is a beginner-friendly guide to writing your first program in **C++**. If you're just starting your programming journey, this tutorial will help you understand the basics of C++ and get you started with coding.
+
+---
+
+## 🛠️ Prerequisites
+
+Before you begin, ensure you have:
+
+1. A C++ compiler installed on your system (e.g., GCC, Clang, or MSVC).
+2. A code editor or IDE (e.g., Visual Studio Code, Code::Blocks, or Dev-C++).
+3. Basic knowledge of how to use a terminal or command prompt.
+
+---
+
+## 📋 Steps to Write Your First C++ Program
+
+### Step 1: Set Up Your Environment
+1. Install a C++ compiler if you don't already have one. [Click here for installation instructions](https://www.cplusplus.com/doc/tutorial/introduction/).
+2. Choose an editor or IDE for writing your code.
+
+---
+
+### Step 2: Write Your First Program
+Create a file named `hello_world.cpp` and add the following code:
+
+```cpp
+#include <iostream> // Include library for input and output
+
+int main() {
+    std::cout << "Hello, World!"; // Print "Hello, World!" to the console
+    return 0; // Indicate that the program executed successfully
